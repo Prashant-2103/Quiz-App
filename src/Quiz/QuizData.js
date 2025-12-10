@@ -124,7 +124,7 @@ const quizQuestionsData = [
       "question": "In the Bohr model of the atom, why are the energy levels of electrons considered quantized?",
       "options": {
         "A": "The electron's speed is constant.",
-        "B": "Electrons can only exist in orbits where their angular momentum is an integer multiple of $\\hbar$.",
+        "B": "Electrons can only exist in orbits where their angular momentum is an integer multiple of h(reduced planks constant).",
         "C": "The atom is a perfect sphere.",
         "D": "The nucleus is positively charged."
       },
