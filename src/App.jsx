@@ -16,7 +16,8 @@ const App = () => {
   // console.log(currAns);
   // console.log(currExplain);
 
-
+  //state for storing scores during the quiz(ye parent component(app) me isliye hai kuki agar isko child component me rakhenge ek question keliye sahi se kaam karega pr jaise hi question change krenge states sare rerender/remount honge aur score wapis se 0 par reset hojayega isliye isko as a prop hmlog send kr rhe hai child recieve krlega)
+  const [score, setScore] = useState(0);
   return (
     <div className="app_div_main  min-h-screen bg-slate-800 flex flex-col  items-center ">
       <h1 className="text-5xl text-center font-extrabold text-slate-500 py-[10vh]">Quiz world</h1>
@@ -25,11 +26,13 @@ const App = () => {
         <Question
           key={currQId}
           que={currQue}
-
           opt={currOpt}
           ans={currAns}
           exp={currExplain}
           q_id={currQId}
+
+          score = {score}
+          setScore = {setScore}
         />
       </div>
 
