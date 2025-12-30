@@ -1,6 +1,6 @@
 export default function Result(prop) {
   return (
-    <div className="flex flex-col items-center justify-center min-h-[40vh] bg-gradient-to-br from-slate-800 to-slate-600 rounded-xl shadow-lg p-8">
+    <div className="flex flex-col items-center justify-center min-h-[40vh] bg-linear-to-br from-slate-800 to-slate-600 rounded-xl shadow-lg p-8">
       <h2 className="text-3xl font-bold text-white mb-6">Quiz Result</h2>
       <div className="text-xl font-semibold text-slate-100 mb-4">
         Your score is:{" "}

@@ -38,7 +38,7 @@ const App = () => {
         <>
       <h1 className="text-5xl text-center font-extrabold text-slate-500 py-[10vh]">Quiz world</h1>
 
-      <div className="w-[70%] min-h-full ">
+      <div className="w-[70%]  ">
         <Question
           key={currQId}
           que={currQue}
